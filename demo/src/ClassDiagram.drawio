@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="ch4_QXcYLOEh8RFRgK10" name="Page-1">
+        <mxGraphModel dx="555" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.582;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="74" y="130" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7">
+                    <mxGeometry x="0.5202" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-6" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="0.6462" relative="1" as="geometry">
+                        <mxPoint x="-10" y="13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Input" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="70" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="190" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                    <mxGeometry x="0.7867" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-11" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="ComandosAdapter" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="280" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;&lt;interface&gt;&gt;&#10;iComandos" style="swimlane;startSize=40;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="170" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;shape=flexArrow;sketch=0;html=1;shadow=0;strokeWidth=2;endSize=6;targetPerimeterSpacing=0;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="ComandosControle" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="70" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;shape=flexArrow;strokeWidth=2;endSize=6;targetPerimeterSpacing=0;shadow=0;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="260" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="ComandosTeclado" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="280" width="110" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
